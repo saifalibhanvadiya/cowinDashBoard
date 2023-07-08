@@ -75,7 +75,7 @@ class CowinDashboard extends Component {
     </div>
   )
   // all charts here
-  renderVaccinationStats = () => {
+  renderVaccinationS...tats = () => {
     const {vaccinationData} = this.state
 
     return (
