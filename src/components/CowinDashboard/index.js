@@ -48,7 +48,6 @@ class CowinDashboard extends Component {
           age: range.age,
           count: range.count,
         })),
-         
         vaccinationByGender: fetchedData.vaccination_by_gender.map(
           genderType => ({
             gender: genderType.gender,
@@ -75,7 +74,7 @@ class CowinDashboard extends Component {
       <h1 className="failure-text">Something went wrong</h1>
     </div>
   )
-
+  // all charts here
   renderVaccinationStats = () => {
     const {vaccinationData} = this.state
 
